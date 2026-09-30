@@ -6,7 +6,7 @@ int main(void) {
         printf("Error: invalid value for I\n");
         return 1;
     }
-    printf("Write R (Ом): ");
+    printf("Write R (Ohm): ");
     if (scanf("%lf", &r) != 1) {
         printf("Error: invalid value for R\n");
         return 1;
